@@ -1,38 +1,58 @@
 * {
-    font-family: inherit;
-    margin: 0;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+.flag-colombia {
+  width: 400px;
+  height: 250px;
+  margin-block: 10px;
+
+  &__yellow {
+    background-color: yellow;
     padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body{
-    background-color: rgb(245, 245, 245);
+    margin: 0;
   }
 
-  .flag-colombia {
-    width: 400px;
-    height: 250px;
-    background-color: black;
-    border: solid black 1px;
-    margin: 0;
+  &__blue {
+    background-color: blue;
     padding: 0;
-    &__yellow{
-      background-color: yellow;
-      width: 500px;
-      padding: 0;
-      margin: 0;
-    }
-    &__blue{
-      background-color: blue;
-      width: 500px;
-      padding: 0;
-      margin: 0;
-    }
-    &__red{
-      background-color: red;
-      width: 500px;
-      padding: 0;
-      margin: 0;
-    }
+    margin: 0;
   }
-  
+
+  &__red {
+    background-color: red;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.flag-francia {
+  width: 400px;
+  height: 250px;
+  margin-block: 10px;
+
+  &__red {
+    background-color: red;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__white {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__blue {
+    background-color: blue;
+    padding: 0;
+    margin: 0;
+  }
+}

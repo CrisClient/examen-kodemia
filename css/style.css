@@ -12,26 +12,41 @@ body {
 .flag-colombia {
   width: 400px;
   height: 250px;
-  background-color: black;
-  border: solid black 1px;
-  margin: 0;
-  padding: 0;
+  margin-block: 10px;
 }
 .flag-colombia__yellow {
   background-color: yellow;
-  width: 500px;
   padding: 0;
   margin: 0;
 }
 .flag-colombia__blue {
   background-color: blue;
-  width: 500px;
   padding: 0;
   margin: 0;
 }
 .flag-colombia__red {
   background-color: red;
-  width: 500px;
+  padding: 0;
+  margin: 0;
+}
+
+.flag-francia {
+  width: 400px;
+  height: 250px;
+  margin-block: 10px;
+}
+.flag-francia__red {
+  background-color: red;
+  padding: 0;
+  margin: 0;
+}
+.flag-francia__white {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+.flag-francia__blue {
+  background-color: blue;
   padding: 0;
   margin: 0;
 }/*# sourceMappingURL=style.css.map */
